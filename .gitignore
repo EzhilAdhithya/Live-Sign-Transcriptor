@@ -1,0 +1,51 @@
+# Model files
+*.h5
+*.hdf5
+*.pth
+*.pkl
+*.joblib
+*.json
+
+# Dataset directories
+/Processed_Data/
+/dataset/
+/MP_Data/
+
+# Logs and outputs
+/Logs/
+*.png
+*.csv
+*.txt
+*.npy
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# IDE specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Environment variables
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Local development
+*.local
+
+# Training checkpoints
+checkpoints/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Large files
+best_model.h5
+model.json
